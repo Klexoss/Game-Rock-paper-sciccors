@@ -1,4 +1,8 @@
+
 body {
+  background: rgb(62,58,180);
+background: linear-gradient(90deg, rgba(62,58,180,1) 5%, rgba(65,190,189,1) 49%, rgba(252,69,196,1) 93%);
+
   font-family: Arial, sans-serif;
   font-weight: bold;
   display: flex;
@@ -12,10 +16,16 @@ body {
   justify-content: space-between;
   max-width: 960px; /* Limiting the width of the container */
   margin: 0 auto; /* Centering the container */
-  padding: 20px; /* Adding some padding */
+  padding: 40px; /* Adding some padding */
 }
 
+
+
+
 h1 {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
   text-align: center;
   margin-bottom: 20px;
   font-size: 3.5rem;
@@ -54,4 +64,10 @@ img {
   width: 150px; /* Setting a fixed width */
   height: 150px; /* Setting a fixed height */
   object-fit: contain; /* Making sure the image fits in the given dimensions */
+}
+
+.vs {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
 }
