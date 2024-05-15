@@ -4,19 +4,54 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #f4f4f4; /* Adding a light background color */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 960px; /* Limiting the width of the container */
+  margin: 0 auto; /* Centering the container */
+  padding: 20px; /* Adding some padding */
 }
 
 h1 {
+  text-align: center;
+  margin-bottom: 20px;
   font-size: 3.5rem;
   color: hsl(0, 0%, 20%);
+  text-align: center; /* Centering the text */
+  transition: color 1s;
 }
-  
-.container2{
+
+h1.win {
+  color: green;
+}
+
+h1.lose {
+  color: red;
+}
+
+h1.tie {
+  color: orange;
+}
+
+.container2, .container4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 30px;
-
+  width: 45%;
 }
 
-.container button {
-  font-size: 7.5rem;
-  
+.container3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+img {
+  width: 150px; /* Setting a fixed width */
+  height: 150px; /* Setting a fixed height */
+  object-fit: contain; /* Making sure the image fits in the given dimensions */
 }
